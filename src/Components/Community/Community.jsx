@@ -36,7 +36,7 @@ const Community = () => {
             term.
           </Typography>
         </Box>
-        <Box sx={{paddingBlock:'1.4rem', display:'flex', justifyContent:'center', alignItems:'center'}}>
+        <Box sx={{paddingBlock:'1.5rem', display:'flex', justifyContent:'center', alignItems:'center'}}>
             <img src={Businesswomen} alt="" width={500}/>
         </Box>
       </Container>
