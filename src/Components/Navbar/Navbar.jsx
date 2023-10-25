@@ -20,9 +20,15 @@ const Navbar = () => {
   return (
     <AppBar position="static" sx={{ backgroundColor: "#300101" }}>
       <Container>
-        <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
+        <Toolbar>
           <img src={Navbarlogo} height={40} />
-          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+          <Box
+            sx={{
+              flexGrow: 1,
+              display: { xs: "flex", md: "none" },
+              justifyContent: "end",
+            }}
+          >
             <IconButton onClick={handleOpenNavMenu} color="inherit">
               <MenuIcon />
             </IconButton>
