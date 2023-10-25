@@ -1,4 +1,5 @@
 import './App.css';
+import Community from './Components/Community/Community';
 import Delight from './Components/Delight/Delight';
 import Experience from './Components/Experience/Experience';
 import Feedback from './Components/Feedback/Feedback';
@@ -18,7 +19,7 @@ function App() {
     <Sustainable />
     <Feedback />
     <Hygienic />
-    <Feedback/>
+    <Community />
     <Footer />
     </>
   );
