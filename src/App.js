@@ -1,4 +1,5 @@
 import './App.css';
+import Delight from './Components/Delight/Delight';
 import Experience from './Components/Experience/Experience';
 import Feedback from './Components/Feedback/Feedback';
 import Footer from './Components/Footer/Footer';
@@ -13,7 +14,7 @@ function App() {
     <Navbar />
     <Experience />
     <Story />
-    <Feedback />
+    <Delight />
     <Sustainable />
     <Feedback />
     <Hygienic />
