@@ -18,7 +18,7 @@ const Navbar = () => {
     setAnchorElNav(null);
   };
   return (
-    <AppBar position="static" sx={{ backgroundColor: "#300101" }}>
+    <AppBar position="static" sx={{ backgroundColor: "#383033" }}>
       <Container>
         <Toolbar>
           <img src={Navbarlogo} height={40} />
@@ -60,6 +60,7 @@ const Navbar = () => {
                 display: "flex",
                 justifyContent: "end",
               },
+              gap: 3,
             }}
           >
             <Button color="inherit">Home</Button>
