@@ -10,7 +10,7 @@ const Experience = () => {
     <>
       <Container sx={{ marginBlock: "4rem" }}>
         <Grid container>
-          <Grid item xs={8}>
+          <Grid item lg={8} sx={{ order: { xs: 2, md: 2, lg:1 } }}>
             <Box sx={{ display: "block" }}>
               <Typography
                 variant="h1"
@@ -48,9 +48,9 @@ const Experience = () => {
               </Button>
             </Box>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item lg={4} sx={{ order: { xs: 1, md: 1, lg:2 } }}>
             <Box>
-                <img src={Womenhome} alt="" width={400}/>
+              <img src={Womenhome} alt="" width={400} />
             </Box>
           </Grid>
         </Grid>
@@ -115,7 +115,7 @@ const Experience = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Box>
-                <img src={Saveearth} alt="" width={80}/>
+                <img src={Saveearth} alt="" width={80} />
               </Box>
               <Typography
                 sx={{
