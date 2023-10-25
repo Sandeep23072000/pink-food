@@ -36,10 +36,33 @@ const Community = () => {
             term.
           </Typography>
         </Box>
-        <Box sx={{paddingBlock:'1.5rem', display:'flex', justifyContent:'center', alignItems:'center'}}>
-            <img src={Businesswomen} alt="" width={500}/>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <img src={Businesswomen} alt="" width={500} />
         </Box>
       </Container>
+      <Box height={700} sx={{ backgroundColor: "#edbcc45e" }}>
+        <Box sx={{ paddingBlock:'2rem', display:'flex', justifyContent:'center'}}>
+          <Typography
+            variant="h2"
+            sx={{
+              fontSize: "44px",
+              fontWeight: "700",
+              fontFamily: "Montserrat",
+              letterSpacing: "-0.5px",
+              color: "#383033",
+            }}
+          >
+            Follow us 
+            <span style={{ color: "#e44b99" }}> on instagram</span>
+          </Typography>
+        </Box>
+      </Box>
     </>
   );
 };
