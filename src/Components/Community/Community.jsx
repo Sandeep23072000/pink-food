@@ -43,11 +43,22 @@ const Community = () => {
             alignItems: "center",
           }}
         >
-          <img src={Businesswomen} alt="" width={500} />
+          <img
+            src={Businesswomen}
+            alt=""
+            style={{ maxWidth: "50%" }}
+            
+          />
         </Box>
       </Container>
       <Box height={700} sx={{ backgroundColor: "#edbcc45e" }}>
-        <Box sx={{ paddingBlock:'2rem', display:'flex', justifyContent:'center'}}>
+        <Box
+          sx={{
+            paddingBlock: "2rem",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
           <Typography
             variant="h2"
             sx={{
@@ -58,7 +69,7 @@ const Community = () => {
               color: "#383033",
             }}
           >
-            Follow us 
+            Follow us
             <span style={{ color: "#e44b99" }}> on instagram</span>
           </Typography>
         </Box>
