@@ -97,12 +97,7 @@ const Feedback = () => {
                     <Typography variant="h5" sx={{ fontWeight: "600" }}>
                       4.0<span style={{ fontSize: "16px" }}>/5.0 rating</span>
                     </Typography>
-                    <Box sx={{ color: "#ffe86c" }}>
-                      <StarIcon />
-                      <StarIcon />
-                      <StarIcon />
-                      <StarIcon />
-                    </Box>
+                    <Rating defaultValue={4} />
                   </Box>
                 </Box>
               </Grid>
@@ -164,11 +159,7 @@ const Feedback = () => {
                     <Typography variant="h5" sx={{ fontWeight: "600" }}>
                       3.0<span style={{ fontSize: "16px" }}>/5.0 rating</span>
                     </Typography>
-                    <Box sx={{ color: "#ffe86c" }}>
-                      <StarIcon />
-                      <StarIcon />
-                      <StarIcon />
-                    </Box>
+                    <Rating defaultValue={3} />
                   </Box>
                 </Box>
               </Grid>
@@ -229,12 +220,7 @@ const Feedback = () => {
                     <Typography variant="h5" sx={{ fontWeight: "600" }}>
                       4.0<span style={{ fontSize: "16px" }}>/5.0 rating</span>
                     </Typography>
-                    <Box sx={{ color: "#ffe86c" }}>
-                      <StarIcon />
-                      <StarIcon />
-                      <StarIcon />
-                      <StarIcon />
-                    </Box>
+                    <Rating defaultValue={4} />
                   </Box>
                 </Box>
               </Grid>
