@@ -117,7 +117,7 @@ const Delight = () => {
               {Array.map((item, i) => {
                 return (
                   <Grid item sm={12} md={6} lg={3}>
-                    <Box sx={{ height:'4rem'}}>
+                    <Box sx={{ height:'8rem'}}>
                       <img src={item?.image} alt="" width={250} />
                     </Box>
                     <Box sx={{ height:'10rem'}}>
@@ -158,104 +158,3 @@ const Delight = () => {
 };
 
 export default Delight;
-
-// <Grid item sm={12} md={6} lg={3}>
-//   <Box>
-//     <img src={Delightsattava} alt="" width={250} />
-//   </Box>
-//   <Box sx={{ paddingTop: "3rem" }}>
-//     <Typography
-//       sx={{
-//         colorL: "#0f172a",
-//         fontSize: "16px",
-//         fontFamily: "Montserrat",
-//         lineHeight: "160%",
-//       }}
-//     >
-//       Wholesome is awesome! Sattva, where with each bite, you get
-//       to experience purity wrapped in goodness that fuels you in
-//       the most nourishing way possible. Food so good. It loves you
-//       right back!
-//     </Typography>
-//   </Box>
-//   <Button
-//     variant="contained"
-//     color="secondary"
-//     sx={{
-//       marginTop: "2rem",
-//       backgroundColor: "#383033",
-//       padding: "16px",
-//       width: "70%",
-//       fontSize: "18px",
-//       fontWeight: "600",
-//     }}
-//   >
-//     Know More
-//   </Button>
-// </Grid>
-// <Grid item sm={12} md={6} lg={3}>
-//   <Box sx={{ paddingTop: "1.3rem" }}>
-//     <img src={Delightwhich} alt="" width={250} />
-//   </Box>
-//   <Box sx={{ paddingTop: "4.2rem" }}>
-//     <Typography
-//       sx={{
-//         colorL: "#0f172a",
-//         fontSize: "16px",
-//         fontFamily: "Montserrat",
-//         lineHeight: "160%",
-//       }}
-//     >
-//       Knock knock. Who’s there? Wich. Wich who? Wichwich. A wide
-//       selection of handcrafted vegetarian rolls and sandwiches!
-//       Enjoy a world of savour where each bite brings a smile.
-//     </Typography>
-//   </Box>
-//   <Button
-//     variant="contained"
-//     color="secondary"
-//     sx={{
-//       marginTop: "3.6rem",
-//       backgroundColor: "#383033",
-//       padding: "16px",
-//       width: "70%",
-//       fontSize: "18px",
-//       fontWeight: "600",
-//     }}
-//   >
-//     Know More
-//   </Button>
-// </Grid>
-// <Grid item sm={12} md={6} lg={3}>
-//   <Box>
-//     <img src={Delightcold} alt="" width={250} />
-//   </Box>
-//   <Box sx={{ paddingTop: "3rem" }}>
-//     <Typography
-//       sx={{
-//         colorL: "#0f172a",
-//         fontSize: "16px",
-//         fontFamily: "Montserrat",
-//         lineHeight: "160%",
-//       }}
-//     >
-//       Ever wish your drinks could groove? Coldplay–a remix of
-//       flavours to keep your rhythm going. Not just a beverage but
-//       a whole vibe.
-//     </Typography>
-//   </Box>
-//   <Button
-//     variant="contained"
-//     color="secondary"
-//     sx={{
-//       marginTop: "5.3rem",
-//       backgroundColor: "#383033",
-//       padding: "16px",
-//       width: "70%",
-//       fontSize: "18px",
-//       fontWeight: "600",
-//     }}
-//   >
-//     Know More
-//   </Button>
-// </Grid>
