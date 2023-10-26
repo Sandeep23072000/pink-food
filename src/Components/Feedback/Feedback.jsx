@@ -1,11 +1,14 @@
-import { Box, Container, Typography } from "@mui/material";
+import { Box, Container, Grid, Typography } from "@mui/material";
 import React from "react";
+import Costumer1 from "../../Assets/Customer1.webp";
+import Costumer2 from "../../Assets/Customer2.webp";
+import Costumer3 from "../../Assets/Customer3.webp";
 
 const Feedback = () => {
   return (
     <>
       <Container>
-        <Box sx={{marginBlock:'3rem'}}>
+        <Box sx={{ marginBlock: "3rem" }}>
           <Typography
             variant="h2"
             sx={{
@@ -31,6 +34,59 @@ const Feedback = () => {
           </Typography>
         </Box>
       </Container>
+      <Box sx={{ height: "30rem", paddingBlock: "5rem" }}>
+        <Container>
+          <Box sx={{ flexGrow: 1 }}>
+            <Grid container columns={12} spacing={2}>
+              <Grid item sm={12} md={6} lg={4}>
+                <Box
+                  sx={{
+                    display: "block",
+                    padding: "2rem 1rem",
+                    backgroundColor: "#fdf2fa",
+                    borderRadius: "8px",
+                    height: "419px",
+                    width: "319px",
+                  }}
+                >
+                  <Box sx={{ display: "flex", justifyContent: "center" }}>
+                    <img src={Costumer1} alt="" width={100} />
+                  </Box>
+                  <Box
+                    sx={{
+                      paddingTop: "1rem",
+                      display: "flex",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <Typography
+                      variant="h4"
+                      sx={{ fontWeight: "600", fontSize: "24px" }}
+                    >
+                      Sameena Shad
+                    </Typography>
+                  </Box>
+                  <Box
+                    sx={{
+                      paddingTop: "1rem",
+                      display: "flex",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <Typography>
+                      Pink Adrak is my go-to place for an amazing food
+                      experience. The diverse menu options from Everyday9,
+                      Sattva, Coldplay, and Whichwich never cease to impress.
+                    </Typography>
+                  </Box>
+                </Box>
+              </Grid>
+              <Grid item sm={12} md={6} lg={4}></Grid>
+              <Grid item sm={12} md={6} lg={4}></Grid>
+            </Grid>
+          </Box>
+        </Container>
+      </Box>
     </>
   );
 };
