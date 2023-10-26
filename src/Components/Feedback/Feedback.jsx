@@ -1,14 +1,15 @@
-import { Box, Container, Grid, Typography } from "@mui/material";
+import { Box, Container, Grid, Rating, Typography } from "@mui/material";
 import React from "react";
 import Costumer1 from "../../Assets/Customer1.webp";
 import Costumer2 from "../../Assets/Customer2.webp";
 import Costumer3 from "../../Assets/Customer3.webp";
+import StarIcon from "@mui/icons-material/Star";
 
 const Feedback = () => {
   return (
     <>
       <Container>
-        <Box sx={{ marginBlock: "3rem" }}>
+        <Box sx={{ marginTop: "3rem" }}>
           <Typography
             variant="h2"
             sx={{
@@ -34,10 +35,10 @@ const Feedback = () => {
           </Typography>
         </Box>
       </Container>
-      <Box sx={{ height: "30rem", paddingBlock: "5rem" }}>
+      <Box sx={{paddingBlock: "5rem" }}>
         <Container>
           <Box sx={{ flexGrow: 1 }}>
-            <Grid container columns={12} spacing={2}>
+            <Grid container columns={12} spacing={4}>
               <Grid item sm={12} md={6} lg={4}>
                 <Box
                   sx={{
@@ -45,7 +46,7 @@ const Feedback = () => {
                     padding: "3rem 2rem",
                     backgroundColor: "#fdf2fa",
                     borderRadius: "8px",
-                    width: "319px",
+                    height:'319px',
                   }}
                 >
                   <Box sx={{ display: "flex", justifyContent: "center" }}>
@@ -90,16 +91,153 @@ const Feedback = () => {
                       paddingTop: "2rem",
                       display: "flex",
                       justifyContent: "space-between",
+                      alignItems: "baseline",
                     }}
                   >
                     <Typography variant="h5" sx={{ fontWeight: "600" }}>
                       4.0<span style={{ fontSize: "16px" }}>/5.0 rating</span>
                     </Typography>
+                    <Box sx={{ color: "#ffe86c" }}>
+                      <StarIcon />
+                      <StarIcon />
+                      <StarIcon />
+                      <StarIcon />
+                    </Box>
                   </Box>
                 </Box>
               </Grid>
-              <Grid item sm={12} md={6} lg={4}></Grid>
-              <Grid item sm={12} md={6} lg={4}></Grid>
+              <Grid item sm={12} md={6} lg={4}>
+                <Box
+                  sx={{
+                    display: "block",
+                    padding: "3rem 2rem",
+                    backgroundColor: "#fdf2fa",
+                    borderRadius: "8px",
+                    height:'319px',
+                  }}
+                >
+                  <Box sx={{ display: "flex", justifyContent: "center" }}>
+                    <img src={Costumer2} alt="" width={100} />
+                  </Box>
+                  <Box
+                    sx={{
+                      paddingTop: "1rem",
+                      display: "flex",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <Typography
+                      variant="h4"
+                      sx={{ fontWeight: "600", fontSize: "24px" }}
+                    >
+                      Saksham Chauhan
+                    </Typography>
+                  </Box>
+                  <Box
+                    sx={{
+                      paddingTop: "1rem",
+                      display: "flex",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <Typography
+                      sx={{
+                        textAlign: "center",
+                        fontSize: "15px",
+                        fontFamily: "Montserrat",
+                        lineHeight: "22px",
+                      }}
+                    >
+                      It is a culinary haven! The attention to detail is
+                      remarkable. I always leave with a satisfied palate and a
+                      smile.
+                    </Typography>
+                  </Box>
+                  <Box
+                    sx={{
+                      paddingTop: "4.5rem",
+                      display: "flex",
+                      justifyContent: "space-between",
+                      alignItems: "baseline",
+                    }}
+                  >
+                    <Typography variant="h5" sx={{ fontWeight: "600" }}>
+                      3.0<span style={{ fontSize: "16px" }}>/5.0 rating</span>
+                    </Typography>
+                    <Box sx={{ color: "#ffe86c" }}>
+                      <StarIcon />
+                      <StarIcon />
+                      <StarIcon />
+                    </Box>
+                  </Box>
+                </Box>
+              </Grid>
+              <Grid item sm={12} md={6} lg={4}>
+                <Box
+                  sx={{
+                    display: "block",
+                    padding: "3rem 2rem",
+                    backgroundColor: "#fdf2fa",
+                    borderRadius: "8px",
+                    height:'319px',
+                  }}
+                >
+                  <Box sx={{ display: "flex", justifyContent: "center" }}>
+                    <img src={Costumer3} alt="" width={100} />
+                  </Box>
+                  <Box
+                    sx={{
+                      paddingTop: "1rem",
+                      display: "flex",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <Typography
+                      variant="h4"
+                      sx={{ fontWeight: "600", fontSize: "24px" }}
+                    >
+                      Pallavi Guram
+                    </Typography>
+                  </Box>
+                  <Box
+                    sx={{
+                      paddingTop: "1rem",
+                      display: "flex",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <Typography
+                      sx={{
+                        textAlign: "center",
+                        fontSize: "15px",
+                        fontFamily: "Montserrat",
+                        lineHeight: "22px",
+                      }}
+                    >
+                      As a corporate employee, Pink Adrak's lunch options have
+                      been a delicious delight.
+                    </Typography>
+                  </Box>
+                  <Box
+                    sx={{
+                      paddingTop: "4.5rem",
+                      display: "flex",
+                      justifyContent: "space-between",
+                      alignItems: "baseline",
+                    }}
+                  >
+                    <Typography variant="h5" sx={{ fontWeight: "600" }}>
+                      4.0<span style={{ fontSize: "16px" }}>/5.0 rating</span>
+                    </Typography>
+                    <Box sx={{ color: "#ffe86c" }}>
+                      <StarIcon />
+                      <StarIcon />
+                      <StarIcon />
+                      <StarIcon />
+                    </Box>
+                  </Box>
+                </Box>
+              </Grid>
             </Grid>
           </Box>
         </Container>
