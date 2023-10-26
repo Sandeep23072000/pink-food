@@ -42,10 +42,9 @@ const Feedback = () => {
                 <Box
                   sx={{
                     display: "block",
-                    padding: "2rem 1rem",
+                    padding: "3rem 2rem",
                     backgroundColor: "#fdf2fa",
                     borderRadius: "8px",
-                    height: "419px",
                     width: "319px",
                   }}
                 >
@@ -73,10 +72,28 @@ const Feedback = () => {
                       justifyContent: "center",
                     }}
                   >
-                    <Typography>
+                    <Typography
+                      sx={{
+                        textAlign: "center",
+                        fontSize: "15px",
+                        fontFamily: "Montserrat",
+                        lineHeight: "22px",
+                      }}
+                    >
                       Pink Adrak is my go-to place for an amazing food
                       experience. The diverse menu options from Everyday9,
                       Sattva, Coldplay, and Whichwich never cease to impress.
+                    </Typography>
+                  </Box>
+                  <Box
+                    sx={{
+                      paddingTop: "2rem",
+                      display: "flex",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <Typography variant="h5" sx={{ fontWeight: "600" }}>
+                      4.0<span style={{ fontSize: "16px" }}>/5.0 rating</span>
                     </Typography>
                   </Box>
                 </Box>
