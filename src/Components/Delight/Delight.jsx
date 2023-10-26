@@ -136,6 +136,7 @@ const Delight = () => {
                       variant="contained"
                       color="secondary"
                       sx={{
+                        textTransform:'none',
                         marginTop: "3.7rem",
                         backgroundColor: "#383033",
                         padding: "16px",
