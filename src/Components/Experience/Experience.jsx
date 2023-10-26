@@ -44,10 +44,9 @@ const Experience = () => {
                 variant="contained"
                 color="secondary"
                 sx={{
-                  width: "35%",
                   fontSize: "20px",
                   fontWeight: "600",
-                  padding: "16px",
+                  padding: "12px 40px",
                   textTransform: "none",
                   backgroundColor: "#e44b99",
                   marginTop: "2rem",
