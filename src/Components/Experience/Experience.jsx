@@ -42,6 +42,7 @@ const Experience = () => {
               </Typography>
               <Button
                 variant="contained"
+                color="secondary"
                 sx={{ backgroundColor: "#e44b99", marginTop: "2rem" }}
               >
                 Explore Pink Adrak
