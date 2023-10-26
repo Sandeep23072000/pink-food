@@ -56,7 +56,7 @@ const Experience = () => {
         </Grid>
       </Container>
       <Container>
-        <Box sx={{ flexGrow: 1, marginBlock: "10rem" }}>
+        <Box sx={{ flexGrow: 1, marginBlock: "5rem" }}>
           <Grid
             container
             columns={{ xs: 4, sm: 12, md: 12 }}
