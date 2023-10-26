@@ -1,5 +1,5 @@
 import { Box, Container, Grid, Rating, Typography } from "@mui/material";
-import React, { useState } from "react";
+import React from "react";
 import Costumer1 from "../../Assets/Customer1.webp";
 import Costumer2 from "../../Assets/Customer2.webp";
 import Costumer3 from "../../Assets/Customer3.webp";
@@ -64,16 +64,15 @@ const Feedback = () => {
         <Container>
           <Box sx={{ flexGrow: 1 }}>
             <Grid container columns={12} spacing={4}>
-                {Array.map((item, i) => {
-                  return (
-                    <Grid item sm={12} md={6} lg={4} key={i}>
-                    <Box 
+              {Array.map((item, i) => {
+                return (
+                  <Grid item sm={12} md={6} lg={4} key={i}>
+                    <Box
                       sx={{
                         display: "block",
                         padding: "3rem 2rem",
                         backgroundColor: "#fdf2fa",
                         borderRadius: "8px",
-                        height: "319px",
                       }}
                     >
                       <Box sx={{ display: "flex", justifyContent: "center" }}>
@@ -84,7 +83,7 @@ const Feedback = () => {
                           paddingTop: "1rem",
                           display: "flex",
                           justifyContent: "center",
-                        }}Sameena Shad
+                        }}
                       >
                         <Typography
                           variant="h4"
@@ -95,9 +94,10 @@ const Feedback = () => {
                       </Box>
                       <Box
                         sx={{
-                          paddingTop: "1rem",
+                          paddingTop: "2rem",
                           display: "flex",
                           justifyContent: "center",
+                          height:'8rem'
                         }}
                       >
                         <Typography
@@ -113,7 +113,7 @@ const Feedback = () => {
                       </Box>
                       <Box
                         sx={{
-                          paddingTop: "2rem",
+                          marginTop: "2rem",
                           display: "flex",
                           justifyContent: "space-between",
                           alignItems: "baseline",
@@ -126,9 +126,9 @@ const Feedback = () => {
                         <Rating defaultValue={item?.starvalue} />
                       </Box>
                     </Box>
-                </Grid>
-                  );
-                })}
+                  </Grid>
+                );
+              })}
             </Grid>
           </Box>
         </Container>
