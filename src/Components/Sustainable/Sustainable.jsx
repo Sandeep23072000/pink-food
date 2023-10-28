@@ -44,7 +44,7 @@ const Sustainable = () => {
                 </Typography>
               </Box>
             </Grid>
-            <Grid item lg={4} sx={{ order: { xs: 1, md: 1, lg: 2 } }}>
+            <Grid item lg={4} sx={{ order: { xs: 1, md: 1, lg: 2 } , display:'flex', justifyContent:'center', width:'100%'}}>
               <img src={Practisewomen} alt="" style={{maxWidth:'100%'}} />
             </Grid>
           </Grid>

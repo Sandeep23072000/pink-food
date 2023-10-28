@@ -1,7 +1,7 @@
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import "../../Components/Experience/Experience.css";
-import Womenhome from "../../Assets/homewomen.png";
+import Womenhome from "../../Assets/storywomen.webp";
 import Scalepng from "../../Assets/scale.png";
 import VerifyIcon from "../../Assets/vefificationhome.png";
 import Saveearth from "../../Assets/saveearth.png";
@@ -11,19 +11,35 @@ const Experience = () => {
     <>
       <Container sx={{ marginBlock: "4rem" }}>
         <Grid container>
-          <Grid item lg={8} sx={{ order: { xs: 2, md: 2, lg: 1 } }}>
+          <Grid
+            item
+            md={8}
+            sx={{
+              order: { xs: 2, md: 1 },
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
             <Box sx={{ display: "block" }}>
               <Typography
                 variant="h1"
                 sx={{
-                  fontSize: "64px",
-                  "@media (max-width: 568px)": {
-                    fontSize: "32px",
-                  },
                   fontWeight: "700",
                   fontFamily: "Montserrat",
                   letterSpacing: "-0.5px",
                   color: "#383033",
+                  marginTop: "1rem",
+                  fontSize: "64px",
+                  "@media (max-width: 900px)": {
+                    marginTop: "0",
+                    fontSize: "49px",
+                  },
+                  "@media (max-width: 768px)": {
+                    fontSize: "42px",
+                  },
+                  "@media (max-width: 567px)": {
+                    fontSize: "38px",
+                  },
                 }}
               >
                 Creating a delightful{" "}
@@ -32,10 +48,13 @@ const Experience = () => {
               <Typography
                 variant="h5"
                 sx={{
-                  paddingTop: "1.5rem",
+                  paddingTop: "1.7rem",
                   fontSize: "18px",
                   fontFamily: "Montserrat",
                   lineHeight: "180%",
+                  "@media (max-width: 900px)": {
+                    paddingTop: "1rem",
+                  },
                 }}
               >
                 Food is an experience, and we are here to make it delightful. We
@@ -53,7 +72,10 @@ const Experience = () => {
                   padding: "12px 40px",
                   textTransform: "none",
                   backgroundColor: "#e44b99",
-                  marginTop: "2rem",
+                  marginTop: "2.8rem",
+                  "@media (max-width: 900px)": {
+                    marginTop: "0.5rem",
+                  },
                   "@media (max-width: 400px)": {
                     fontSize: "14px",
                   },
@@ -63,7 +85,16 @@ const Experience = () => {
               </Button>
             </Box>
           </Grid>
-          <Grid item lg={4} sx={{ order: { xs: 1, md: 1, lg: 2 } }}>
+          <Grid
+            item
+            md={4}
+            sx={{
+              order: { xs: 1, md: 2 },
+              display: "flex",
+              justifyContent: "center",
+              width: "100%",
+            }}
+          >
             <Box>
               <img
                 src={Womenhome}

@@ -8,11 +8,15 @@ const Hygienic = () => {
       <Box sx={{ backgroundColor: "#383033" }}>
         <Container>
           <Grid container sx={{ paddingTop: "3rem" }}>
-            <Grid item md={4}>
+            <Grid
+              item
+              md={4}
+              sx={{ display: "flex", justifyContent: "center", width: "100%" }}
+            >
               <img src={Chefwomen} alt="" width={200} />
             </Grid>
             <Grid item md={8}>
-              <Box sx={{paddingTop:'3rem'}}>
+              <Box sx={{ paddingTop: "3rem" }}>
                 <Typography
                   variant="h1"
                   sx={{

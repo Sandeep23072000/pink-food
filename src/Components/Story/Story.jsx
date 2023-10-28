@@ -8,8 +8,12 @@ const Story = () => {
       <Box sx={{ backgroundColor: "#383033" }}>
         <Container>
           <Grid container sx={{ paddingTop: "3rem" }}>
-            <Grid item md={4}>
-              <img src={Storywomen} alt="" style={{maxWidth:'100%', height:'100%'}} />
+            <Grid item md={4} sx={{display:'flex', justifyContent:'center', width:'100%'}}>
+              <img
+                src={Storywomen}
+                alt=""
+                style={{ maxWidth: "100%", height: "100%" }}
+              />
             </Grid>
             <Grid item md={8}>
               <Box>
@@ -26,11 +30,11 @@ const Story = () => {
                 </Typography>
                 <Typography
                   sx={{
-                    paddingTop:'2rem',
+                    paddingTop: "2rem",
                     fontSize: "18px",
                     fontFamily: "Montserrat",
                     lineHeight: "180%",
-                    color:'white'
+                    color: "white",
                   }}
                 >
                   Creating a delightful food experience by operating as an
