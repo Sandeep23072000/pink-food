@@ -1,6 +1,6 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
 import React from "react";
-import Storywomen from "../../Assets/storywomen.png";
+import Storywomen from "../../Assets/storywomen.webp";
 
 const Story = () => {
   return (
@@ -9,7 +9,7 @@ const Story = () => {
         <Container>
           <Grid container sx={{ paddingTop: "3rem" }}>
             <Grid item md={4}>
-              <img src={Storywomen} alt="" width={300} />
+              <img src={Storywomen} alt="" style={{maxWidth:'100%', height:'100%'}} />
             </Grid>
             <Grid item md={8}>
               <Box>

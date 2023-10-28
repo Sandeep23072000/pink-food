@@ -30,13 +30,13 @@
   }
 }
 .delight_button_content {
-  margin-top: 3.7rem;
-  text-transform: none;
-  background-color: #383033;
-  padding: 16px;
+  margin-top: 3.7rem !important;
+  text-transform: none !important;
+  background-color: #383033 !important;
+  padding: 16px !important;
   width: 70%;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 18px !important;
+  font-weight: 600 !important;
 }
 @media screen and (max-width: 1200px) {
   .delight_button_content {

@@ -97,7 +97,7 @@ const Feedback = () => {
                           paddingTop: "2rem",
                           display: "flex",
                           justifyContent: "center",
-                          height:'8rem'
+                          height:'8rem',
                         }}
                       >
                         <Typography
@@ -115,6 +115,9 @@ const Feedback = () => {
                         sx={{
                           marginTop: "2rem",
                           display: "flex",
+                          "@media (max-width: 370px)":{
+                            display:'block'
+                          },
                           justifyContent: "space-between",
                           alignItems: "baseline",
                         }}

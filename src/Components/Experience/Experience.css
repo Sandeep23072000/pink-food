@@ -1,0 +1,8 @@
+.experience_homepage_first_img {
+  width: 400px;
+}
+@media screen and (max-width: 568px) {
+  .experience_homepage_first_img {
+    width: 200px;
+  }
+}

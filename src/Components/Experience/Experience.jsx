@@ -1,5 +1,6 @@
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import React from "react";
+import "../../Components/Experience/Experience.css";
 import Womenhome from "../../Assets/homewomen.png";
 import Scalepng from "../../Assets/scale.png";
 import VerifyIcon from "../../Assets/vefificationhome.png";
@@ -16,6 +17,9 @@ const Experience = () => {
                 variant="h1"
                 sx={{
                   fontSize: "64px",
+                  "@media (max-width: 568px)": {
+                    fontSize: "32px",
+                  },
                   fontWeight: "700",
                   fontFamily: "Montserrat",
                   letterSpacing: "-0.5px",
@@ -50,6 +54,9 @@ const Experience = () => {
                   textTransform: "none",
                   backgroundColor: "#e44b99",
                   marginTop: "2rem",
+                  "@media (max-width: 400px)": {
+                    fontSize: "14px",
+                  },
                 }}
               >
                 Explore Pink Adrak
@@ -58,7 +65,11 @@ const Experience = () => {
           </Grid>
           <Grid item lg={4} sx={{ order: { xs: 1, md: 1, lg: 2 } }}>
             <Box>
-              <img src={Womenhome} alt="" width={400} />
+              <img
+                src={Womenhome}
+                alt=""
+                className="experience_homepage_first_img"
+              />
             </Box>
           </Grid>
         </Grid>

@@ -69,10 +69,16 @@ const Delight = () => {
                 transform: "uppercase",
                 "@media (max-width: 1200px)": {
                   fontSize: "25px",
-                  marginTop: "0",
+                  marginTop: "-5.5rem",
                 },
                 "@media (max-width: 768px)": {
                   fontSize: "15px",
+                  marginTop: "-3.5rem",
+                },
+                "@media (max-width: 567px)": {
+                  marginTop: "-2.5rem",
+                },
+                "@media (max-width: 453px)": {
                   marginTop: "0",
                 },
               }}
@@ -140,20 +146,9 @@ const Delight = () => {
                       </Typography>
                     </Box>
                     <Button
+                      className="delight_button_content"
                       variant="contained"
                       color="secondary"
-                      sx={{
-                        textTransform: "none",
-                        marginTop: "3.7rem",
-                        "@media (max-width: 1200px)": {
-                          marginTop: "0 !important",
-                        },
-                        backgroundColor: "#383033",
-                        padding: "16px",
-                        width: "70%",
-                        fontSize: "18px",
-                        fontWeight: "600",
-                      }}
                     >
                       Know More
                     </Button>
