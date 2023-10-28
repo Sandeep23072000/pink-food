@@ -1,0 +1,45 @@
+.delight_image_content {
+  height: 8rem;
+}
+@media screen and (max-width: 1200px) {
+  .delight_image_content {
+    height: 6rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .delight_image_content {
+    height: 8rem;
+  }
+}
+.delight_text_content {
+  height: 10rem;
+}
+@media screen and (max-width: 1200px) {
+  .delight_text_content {
+    height: 7rem;
+  }
+}
+@media screen and (max-width: 568px) {
+  .delight_text_content {
+    height: 8rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .delight_text_content {
+    height: 10rem;
+  }
+}
+.delight_button_content {
+  margin-top: 3.7rem;
+  text-transform: none;
+  background-color: #383033;
+  padding: 16px;
+  width: 70%;
+  font-size: 18px;
+  font-weight: 600;
+}
+@media screen and (max-width: 1200px) {
+  .delight_button_content {
+    margin-top: 0;
+  }
+}

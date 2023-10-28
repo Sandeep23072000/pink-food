@@ -1,5 +1,6 @@
 import { Box, Container, Typography, Grid, Button } from "@mui/material";
 import React from "react";
+import "../../Components/Delight/Delight.css";
 import Delighteveryday from "../../Assets/Delighteveryday.webp";
 import Delightsattava from "../../Assets/Delightsattava.webp";
 import Delightwhich from "../../Assets/Delightwhich.webp";
@@ -112,15 +113,21 @@ const Delight = () => {
       </Container>
       <Box sx={{ backgroundColor: "#fdf2f9" }}>
         <Container>
-          <Box sx={{ flexGrow: 1, paddingBlock: "10rem" }}>
+          <Box sx={{ flexGrow: 1, paddingBlock: "5rem" }}>
             <Grid container columns={12} spacing={2}>
               {Array.map((item, i) => {
                 return (
-                  <Grid item sm={12} md={6} lg={3}>
-                    <Box sx={{ height:'8rem'}}>
+                  <Grid
+                    item
+                    sm={12}
+                    md={6}
+                    lg={3}
+                    sx={{ paddingTop: "5rem !important" }}
+                  >
+                    <Box className="delight_image_content">
                       <img src={item?.image} alt="" width={250} />
                     </Box>
-                    <Box sx={{ height:'10rem'}}>
+                    <Box className="delight_text_content">
                       <Typography
                         sx={{
                           color: "#0f172a",
@@ -136,8 +143,11 @@ const Delight = () => {
                       variant="contained"
                       color="secondary"
                       sx={{
-                        textTransform:'none',
+                        textTransform: "none",
                         marginTop: "3.7rem",
+                        "@media (max-width: 1200px)": {
+                          marginTop: "0 !important",
+                        },
                         backgroundColor: "#383033",
                         padding: "16px",
                         width: "70%",

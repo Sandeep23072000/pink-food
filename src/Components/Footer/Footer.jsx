@@ -50,7 +50,7 @@ const Footer = () => {
                 >
                   Our Brands
                 </Typography>
-                <Box sx={{ display: "block"}}>
+                <Box sx={{ display: "block" }}>
                   <Typography
                     sx={{ fontFamily: "Montserrat", paddingTop: "1.5rem" }}
                   >
