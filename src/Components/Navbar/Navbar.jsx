@@ -63,9 +63,36 @@ const Navbar = () => {
               gap: 3,
             }}
           >
-            <Button color="inherit">Home</Button>
-            <Button color="inherit">Our Brands </Button>
-            <Button color="inherit">Products</Button>
+            <Button
+              color="inherit"
+              sx={{
+                textTransform: "none",
+                fontFamily: "Montserrat",
+                fontSize: "16px",
+              }}
+            >
+              Home
+            </Button>
+            <Button
+              color="inherit"
+              sx={{
+                textTransform: "none",
+                fontFamily: "Montserrat",
+                fontSize: "16px",
+              }}
+            >
+              Our Brands{" "}
+            </Button>
+            <Button
+              color="inherit"
+              sx={{
+                textTransform: "none",
+                fontFamily: "Montserrat",
+                fontSize: "16px",
+              }}
+            >
+              Products
+            </Button>
           </Box>
         </Toolbar>
       </Container>

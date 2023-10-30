@@ -7,7 +7,7 @@ const Sustainable = () => {
     <>
       <Box sx={{ backgroundColor: "#383033" }}>
         <Container>
-          <Grid container sx={{ paddingTop: "3rem" }}>
+          <Grid container sx={{ paddingBlock: "3rem" }}>
             <Grid item lg={8} sx={{ order: { xs: 2, md: 2, lg: 1 } }}>
               <Box>
                 <Typography
